@@ -5,8 +5,8 @@
     <style>
         #board {
            border: 5px solid black ;
-           height: 630px;
-           width: 630px;
+           height: 628px;
+           width: 600px;
            position: absolute;
           
         }
@@ -40,13 +40,14 @@
       }
 
       #firstrow {
-          display: inline-table;
-
+          display: inline-block;
           margin: 0px; 
+          padding-bottom: 0px;
       }
       #secondrow {
-          display: inline-table;
+          display: inline-block;
           margin: 0px;
+
       }
       #thirdrow {
           display: inline-table;
@@ -78,126 +79,49 @@
     <h1>Checkers</h1>
     <div id="board"> 
 
-        <div id="firstrow" class="lightsquare"></div>
-        <div id="firstrow" class="darksquare">
+        <div id="firstrow" class="lightsquare"></div><div id="firstrow" class="darksquare"><div class="blackpiece"></div>
+        </div><div id="firstrow" class="lightsquare"></div><div id="firstrow" class="darksquare"><div class="blackpiece"></div>
+        </div><div id="firstrow" class="lightsquare"></div><div id="firstrow" class="darksquare"><div class="blackpiece"></div>
+        </div><div id="firstrow" class="lightsquare"></div><div id="firstrow" class="darksquare"><div class="blackpiece"></div>
+        </div><div id="secondrow" class="darksquare">
             <div class="blackpiece"></div>
-        </div>
-        <div id="firstrow" class="lightsquare"></div>
-        <div id="firstrow" class="darksquare">
+        </div><div id="secondrow" class="lightsquare"></div><div id="secondrow" class="darksquare"><div class="blackpiece"></div>
+        </div><div id="secondrow" class="lightsquare"></div><div id="secondrow" class="darksquare">
+            <div class="blackpiece"></div></div><div id="secondrow" class="lightsquare"></div><div id="secondrow" class="darksquare">
             <div class="blackpiece"></div>
-        </div>
-        <div id="firstrow" class="lightsquare"></div>
-        <div id="firstrow" class="darksquare">
+        </div><div id="secondrow" class="lightsquare"></div><div id="thirdrow" class="lightsquare"></div><div id="thirdrow" class="darksquare">
             <div class="blackpiece"></div>
-        </div>
-        <div id="firstrow" class="lightsquare"></div>
-        <div id="firstrow" class="darksquare">
+        </div><div id="thirdrow" class="lightsquare"></div><div id="thirdrow" class="darksquare">
             <div class="blackpiece"></div>
-        </div>
-   
-        <div id="secondrow" class="darksquare">
+        </div><div id="thirdrow" class="lightsquare"></div><div id="thirdrow" class="darksquare">
             <div class="blackpiece"></div>
-        </div>
-        <div id="secondrow" class="lightsquare"></div>
-        <div id="secondrow" class="darksquare">
+        </div><div id="thirdrow" class="lightsquare"></div><div id="thirdrow" class="darksquare">
             <div class="blackpiece"></div>
-        </div>
-        <div id="secondrow" class="lightsquare"></div>
-        <div id="secondrow" class="darksquare">
-            <div class="blackpiece"></div>
-        </div>
-        <div id="secondrow" class="lightsquare"></div>
-        <div id="secondrow" class="darksquare">
-            <div class="blackpiece"></div>
-        </div>
-        <div id="secondrow" class="lightsquare"></div>
-
-        <div id="thirdrow" class="lightsquare"></div>
-        <div id="thirdrow" class="darksquare">
-            <div class="blackpiece"></div>
-        </div>
-        <div id="thirdrow" class="lightsquare"></div>
-        <div id="thirdrow" class="darksquare">
-            <div class="blackpiece"></div>
-        </div>
-        <div id="thirdrow" class="lightsquare"></div>
-        <div id="thirdrow" class="darksquare">
-            <div class="blackpiece"></div>
-        </div>
-        <div id="thirdrow" class="lightsquare"></div>
-        <div id="thirdrow" class="darksquare">
-            <div class="blackpiece"></div>
-        </div> 
-    
-        <div id="fourthrow" class="darksquare"></div>
-        <div id="fourthrow" class="lightsquare"></div>
-        <div id="fourthrow" class="darksquare"></div>
-        <div id="fourthrow" class="lightsquare"></div>
-        <div id="fourthrow" class="darksquare"></div>
-        <div id="fourthrow" class="lightsquare"></div>
-        <div id="fourthrow" class="darksquare"></div>
-        <div id="fourthrow" class="lightsquare"></div>  
-    
-        <div id="fifthrow" class="lightsquare"></div>
-        <div id="fifthrow" class="darksquare"></div>
-        <div id="fifthrow" class="lightsquare"></div>
-        <div id="fifthrow" class="darksquare"></div>
-        <div id="fifthrow" class="lightsquare"></div>
-        <div id="fifthrow" class="darksquare"></div>
-        <div id="fifthrow" class="lightsquare"></div>
-        <div id="fifthrow" class="darksquare"></div>
-   
-   
-        <div id="sixthrow" class="darksquare">
+        </div><div id="fourthrow" class="darksquare"></div><div id="fourthrow" class="lightsquare"></div><div id="fourthrow" class="darksquare"></div><div id="fourthrow" class="lightsquare"></div><div id="fourthrow" class="darksquare"></div><div id="fourthrow" class="lightsquare"></div><div id="fourthrow" class="darksquare"></div><div id="fourthrow" class="lightsquare"></div><div id="fifthrow" class="lightsquare"></div><div id="fifthrow" class="darksquare"></div><div id="fifthrow" class="lightsquare"></div><div id="fifthrow" class="darksquare"></div><div id="fifthrow" class="lightsquare"></div><div id="fifthrow" class="darksquare"></div><div id="fifthrow" class="lightsquare"></div><div id="fifthrow" class="darksquare"></div><div id="sixthrow" class="darksquare">
             <div class="redpiece"></div>
-        </div>
-        <div id="sixthrow" class="lightsquare"></div>
-        <div id="sixthrow" class="darksquare">
+        </div><div id="sixthrow" class="lightsquare"></div><div id="sixthrow" class="darksquare">
             <div class="redpiece"></div>
-        </div>
-        <div id="sixthrow" class="lightsquare"></div>
-        <div id="sixthrow" class="darksquare">
+        </div><div id="sixthrow" class="lightsquare"></div><div id="sixthrow" class="darksquare">
             <div class="redpiece"></div>
-        </div>
-        <div id="sixthrow" class="lightsquare"></div>
-        <div id="sixthrow" class="darksquare">
+        </div><div id="sixthrow" class="lightsquare"></div><div id="sixthrow" class="darksquare">
             <div class="redpiece"></div>
-        </div>
-        <div id="sixthrow" class="lightsquare"></div>          
-       
-        <div id="seventhrow" class="lightsquare"></div>
-        <div id="seventhrow" class="darksquare">
+        </div><div id="sixthrow" class="lightsquare"></div><div id="seventhrow" class="lightsquare"></div><div id="seventhrow" class="darksquare">
             <div class="redpiece"></div>
-        </div>
-        <div id="seventhrow" class="lightsquare"></div>
-        <div id="seventhrow" class="darksquare">
+        </div><div id="seventhrow" class="lightsquare"></div><div id="seventhrow" class="darksquare">
             <div class="redpiece"></div>
-        </div>
-        <div id="seventhrow" class="lightsquare"></div>
-        <div id="seventhrow"class="darksquare">
+        </div><div id="seventhrow" class="lightsquare"></div><div id="seventhrow"class="darksquare">
             <div class="redpiece"></div>
-        </div>
-        <div id="seventhrow" class="lightsquare"></div>
-        <div id="seventhrow" class="darksquare">
+        </div><div id="seventhrow" class="lightsquare"></div><div id="seventhrow" class="darksquare">
             <div class="redpiece"></div>
-        </div>
-  
-        <div id="eigthrow" class="darksquare">
+        </div><div id="eigthrow" class="darksquare">
             <div class="redpiece"></div>
-        </div>
-        <div id="eigthrow" class="lightsquare"></div>
-        <div id="eigthrow" class="darksquare">
+        </div><div id="eigthrow" class="lightsquare"></div><div id="eigthrow" class="darksquare">
             <div class="redpiece"></div>
-        </div>
-        <div id="eigthrow" class="lightsquare"></div>
-        <div id="eigthrow" class="darksquare">
+        </div><div id="eigthrow" class="lightsquare"></div><div id="eigthrow" class="darksquare">
             <div class="redpiece"></div>
-        </div>
-        <div id="eigthrow" class="lightsquare"></div>
-        <div id="eigthrow" class="darksquare">
+        </div><div id="eigthrow" class="lightsquare"></div><div id="eigthrow" class="darksquare">
             <div class="redpiece"></div>
-        </div>
-        <div id="eigthrow" class="lightsquare"></div>
+        </div><div id="eigthrow" class="lightsquare"></div>
     </div>
 
 </body>
